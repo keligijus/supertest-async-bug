@@ -1,0 +1,19 @@
+{
+  "name": "supertest-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2"
+  },
+  "scripts": {
+    "start": "PORT=3000 nodemon app.js",
+    "test": "jest --verbose"
+  },
+  "author": "Eligijus",
+  "license": "ISC"
+}
